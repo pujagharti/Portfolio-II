@@ -1,0 +1,28 @@
+footer
+{
+    width: 100%;
+    min-height: 15vh;
+    float: left;
+}
+
+footer table
+{
+    width: 100%;
+    min-height: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+footer tr
+{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5px 0 7.5px 0;
+}
+footer tr td
+{
+    padding: 0 7.5px 0 7.5px;
+    cursor: pointer;
+}

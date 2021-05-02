@@ -1,0 +1,56 @@
+ul.projects-list
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+ul.projects-list li
+{
+    font-size: 23px;
+    padding: 0;
+    margin: 0;
+}
+ul.projects-list li h4 span
+{
+    cursor: pointer;
+}
+ul.projects-list img
+{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+@media (min-width: 1023px) {
+    ul.projects-list
+    {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    ul.projects-list li
+    {
+        width: 100%;
+        font-size: 23px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    ul.projects-list img
+    {
+        width: 55%;
+        padding: 0;
+        margin: 0;
+    }
+    ul.projects-list h4
+    {
+        float: left;
+    }
+
+
+}
