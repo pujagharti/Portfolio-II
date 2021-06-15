@@ -1,0 +1,15 @@
+.container-fluid {
+  background-color: #337AB7;
+}
+.navbar-brand {
+  color: white;
+  font-size: 30px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+ul{
+  color: black;
+}
+.collapse navbar-collapse {
+  color: white;
+}
